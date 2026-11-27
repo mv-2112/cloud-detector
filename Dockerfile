@@ -1,5 +1,5 @@
 # Pulls the official upstream Python 3.12 environment pre-packaged with uv from GHCR
-FROM ghcr.io/astral-sh/uv:0.13.6-python3.12-alpine
+FROM ghcr.io/astral-sh/uv:0.13.10-python3.12-alpine
 
 # Install uv installer safely
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
